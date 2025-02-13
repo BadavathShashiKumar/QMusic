@@ -4,7 +4,7 @@ let song_bar = document.getElementById("song_progress_bar");
 let album_name = document.getElementById("album_name");
 let playButtons = document.querySelectorAll(".play i");
 let currentPlayingIndex = -1;
-let songs = [
+let songs = [ 
   "./Song/Song1.mp3",
   "./Song/Song2.mp3",
   "./Song/Song3.mp3",
